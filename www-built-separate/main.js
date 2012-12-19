@@ -297,15 +297,3 @@ require(['css!style/style'], function (component) {
     document.body.appendChild(widget);
 });
 define("main", function(){});
-
-for (var c in requirejs.s.contexts) { requirejs.s.contexts[c].nextTick = function(f){f()} } 
-require(['css', 'plugins/normalize', 'require'], function(css, normalize, require) { 
-var pathname = window.location.pathname.split('/'); 
-pathname.pop(); 
-pathname = pathname.join('/') + '/'; 
-var baseUrl = require.toUrl('.'); 
-baseUrl = normalize.convertURIBase(baseUrl, pathname, '/'); 
-css.inject(normalize('body {\n    font-family: sans-serif;\n    color: red;\n}\n', baseUrl, pathname)); 
-}); 
-for (var c in requirejs.s.contexts) { requirejs.s.contexts[c].nextTick = requirejs.nextTick; } 
-;

@@ -2,7 +2,7 @@ require.config({
     baseUrl: './',
     map: {
         '*': {
-            'css': './plugins/css'
+            'css': 'plugins/css'
         }
     }
 });

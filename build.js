@@ -1,13 +1,13 @@
 ({
   appDir: 'www',
-  dir: 'www-built',
+  dir: 'www-built-uglified',
   baseUrl: '.',
   fileExclusionRegExp: /(.git)$/,
   //separateCSS: true,
-  optimize: 'none',
+  //optimize: 'none',
   map: {
     '*': {
-      'css': './plugins/css'
+      'css': 'plugins/css'
     }
   },
   modules: [
