@@ -1,0 +1,11 @@
+
+style/style.css
+----------------
+style/style.css
+
+main.js
+----------------
+plugins/normalize.js
+plugins/css.js
+plugins/css!style/style
+main.js
