@@ -1,0 +1,15 @@
+
+style/style.css
+----------------
+style/style.css
+
+main.js
+----------------
+main.js
+
+widget.js
+----------------
+plugins/normalize.js
+plugins/css.js
+plugins/css!style/style
+widget.js
